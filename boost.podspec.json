@@ -98,7 +98,7 @@
     {
       "name": "type-index",
       "preserve_paths": [
-        "boost/type_index/**/*.hpp",
+        "boost/type_index/**/*.hpp"
       ]
     },
     {
