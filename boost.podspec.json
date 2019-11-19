@@ -115,6 +115,13 @@
         "boost/lexical_cast/**/*.hpp",
         "boost/lexical_cast/**/*.ipp"
       ]
+    },
+    {
+      "name": "endian",
+      "preserve_paths": [
+        "boost/endian/**/*.hpp",
+        "boost/endian/**/*.ipp"
+      ]
     }
   ]
 }
