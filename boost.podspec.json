@@ -104,7 +104,7 @@
     {
       "name": "asio",
       "preserve_paths": [
-        "boost/asio/**/*.hpp",
+        "boost/asio/**/*.hpp"
       ]
     }
   ]
