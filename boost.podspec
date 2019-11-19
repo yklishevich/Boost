@@ -94,6 +94,13 @@
         "boost/{algorithm,accumulators,circular_buffer,archive,bimap,bind,chrono,concept,config,container,date_time,detail,dynamic_bitset,exception,filesystem,format,function,functional,fusion,graph,integer,intrusive,io,iterator,math,move,mpi,mpl,multi_index,numeric,optional,parameter,pending,preprocessor,property_map,property_tree,proto,python,random,range,ratio,regex,serialization,smart_ptr,spirit,system,test,thread,tr1,tuple,type_traits,typeof,units,unordered,utility,variant,xpressive}/**/*.hpp",
         "boost/xpressive/**/*.ipp"
       ]
+    },
+    {
+      "name": "type-index",
+      "preserve_paths": [
+        "boost/type_index/*.hpp",
+		"boost/type_index/detail/*.hpp"
+      ]
     }
   ]
 }
