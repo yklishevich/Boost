@@ -9,8 +9,9 @@
   },
   "authors": "Rene Rivera",
   "source": {
-    "http": "http://sourceforge.net/projects/boost/files/boost/1.59.0/boost_1_59_0.tar.gz"
+    "http": "https://github.com/yklishevich/Boost.git"
   },
+  "vendored_libraries" : "build-ios/libboost.a",
   "platforms": {
     "ios": "4.0",
     "osx": "10.6"
