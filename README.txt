@@ -1,0 +1,1 @@
+In order to add pod to some spec repo it is needed to convert podspe file from json format into Ruby DSL format.
