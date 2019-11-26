@@ -1,6 +1,8 @@
 Pod::Spec.new do |spec|
     spec.name              			= 'boost'
-    spec.version           			= '1.59.0'
+	# there is "boost" pod in public spec repo and proper ordering spec repos when pushing podspec to spec repo is not honored, 
+	# when client of pod is installing pod version from public spec repo is taken, so we add 'YKL' to the version
+    spec.version           			= '1.59.0-YKL'
     spec.summary           			= 'Boost provides free peer-reviewed portable C++ source libraries.'
     spec.homepage          			= 'http://www.boost.org'            		
     spec.author            			= { 'Name' => 'eklishevich@gmail.com' }
