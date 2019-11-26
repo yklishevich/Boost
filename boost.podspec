@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
 	spec.vendored_libraries 		= "build-ios/libboost.a"
 	spec.platform          			= :ios
 	spec.ios.deployment_target 		= '8.0'
-	spec.source_files               = 'boost/**/*.{h,hpp}'
-	spec.preserve_paths        		= 'boost/**/*.{ipp}'
+	# do not specify source files otherwise error will be when compiling
+	spec.preserve_paths        		= 'boost/**/*.{h,hpp,ipp}'
 	spec.user_target_xcconfig 		= { 'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/boost"' }
 end
