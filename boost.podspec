@@ -13,6 +13,9 @@ Pod::Spec.new do |spec|
 	spec.platform          			= :ios
 	spec.ios.deployment_target 		= '8.0'
 	# do not specify source files otherwise error will be when compiling
+	spec.source_files				= 'boost/**/*.{h,hpp,ipp}'
 	spec.preserve_paths        		= 'boost/**/*.{h,hpp,ipp}'
-	spec.user_target_xcconfig 		= { 'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/boost"' }
+	spec.header_mappings_dir		= 'boost'
+	# HEADER_SEARCH_PATHS is needed to find 'ipp' files
+	spec.user_target_xcconfig 		= { 'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/boost/boost"' }
 end
