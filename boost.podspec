@@ -18,4 +18,6 @@ Pod::Spec.new do |spec|
 	spec.header_mappings_dir		= 'boost'
 	# HEADER_SEARCH_PATHS is needed to find 'ipp' files
 	spec.user_target_xcconfig 		= { 'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/boost/boost"' }
+	
+	#TODO: make subspecs for different parts of boost
 end
