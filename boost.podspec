@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
     spec.summary           			= 'Boost provides free peer-reviewed portable C++ source libraries.'
     spec.homepage          			= 'http://www.boost.org'            		
     spec.author            			= { 'Name' => 'eklishevich@gmail.com' }
-    spec.license           			= { :type => "MIT", :file => "LICENSE.txt" }
+    spec.license           			= { :type => "MIT", :file => "LICENSE_1_0.txt" }
     spec.platform          			= :ios
     spec.source            			= { :git => 'https://github.com/yklishevich/Boost.git', :tag => spec.version }
 	spec.vendored_libraries 		= "build-ios/libboost.a"
